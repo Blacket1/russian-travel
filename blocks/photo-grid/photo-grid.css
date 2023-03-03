@@ -4,24 +4,25 @@
   grid-template-rows: repeat(auto-fit, minmax(213px, max-content));
   gap: 16px;
   padding: 92px 48px;
+  box-sizing: border-box;
+
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .photo-grid {
     gap: 14px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
     padding: 88px 24px;
-    gap: 16px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
-    padding: 20% 5%;
+    padding: 64px 16px;
     gap: 12px;
   }
 }
